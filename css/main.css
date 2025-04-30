@@ -15,7 +15,9 @@ header h1 a{
 	text-indent: -9999em;
 	overflow: hidden;
 }
-
+header nav{
+	margin-bottom: 18px;
+}
 header nav > div{
 	display: flex;
 	justify-content: space-between;
@@ -52,3 +54,88 @@ header nav > div{
 .dropdown ul li{
 	display: none;
 }
+/* hero */
+.hero{
+	display: flex;
+	justify-content: space-between;
+}
+.hero .content{
+	margin-top: 112px;
+	margin-left: 15px;
+	width: 545px;
+}
+.hero .content h3{
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 30px;
+	color: #df6951;
+	text-transform: uppercase;
+	margin-bottom: 24px;
+}
+.hero .content h2{
+	font-family: "Volkhov", serif;
+	font-size: 84px;
+	line-height: 89px;
+	letter-spacing: -0.04em; /* -3.36px */
+	color: #181e4b;
+	margin-bottom: 30px;
+}
+.hero .content h2 strong{
+	position: relative;
+}
+.hero .content h2 strong:after{
+	content: '';
+	width: 385px;
+	height: 12px;
+	background: url(/images/header_title_bg.svg) no-repeat;
+	position: absolute;
+	bottom: 16px;
+	left: -20px;
+	z-index: -1;
+}
+.hero .content p{
+	line-height: 30px;
+	color: #5e6282;
+	padding-right: 70px;
+	margin-bottom: 34px;
+}
+.hero .cta{
+	display: flex;
+	gap: 44px;
+	align-items: center;
+}
+.hero .cta a{
+	height: 60px;
+	display: flex;
+	align-items: center;
+	padding: 0 26px;
+	background: #f1a501;
+	border-radius: 10px;
+	font-size: 18px;
+	font-family: "Product Sans Medium Regular";
+	color: #fff;
+}
+
+.hero .cta button{
+	display: flex;
+	align-items: center;
+	gap: 21px;
+}
+.hero .cta button .icon{
+	background: #DF6951;
+	width: 52px;
+	height: 52px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	box-shadow: 0 15px 30px rgba(223,105,81,0.3);
+	font-style: 15px;
+}
+.hero .cta button{
+	font-style: 17px;
+	color: #686d77;
+	font-weight: 500;
+}
+
